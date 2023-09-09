@@ -10,7 +10,7 @@ function saveNote(){
 
 function displayNotes() {
     var notesList = document.getElementById("notesList");
-    notesList.innerHTML = ""; // Clear the current list
+    notesList.innerHTML = "";
 
     var existingNotes = JSON.parse(localStorage.getItem("notes")) || [];
     for (var i = 0; i < existingNotes.length; i++) {
@@ -23,5 +23,5 @@ function displayNotes() {
 window.onload = displayNotes
 
 function back(){
-    window.location.href = 'index.html';
+    window.location.href = 'index.html'
 }

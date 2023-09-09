@@ -23,5 +23,5 @@ function displayNotes() {
 window.onload = displayNotes
 
 function back(){
-    window.location.href = '/index.html';
+    window.location.href = 'index.html';
 }
